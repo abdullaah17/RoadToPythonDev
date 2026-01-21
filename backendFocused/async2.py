@@ -13,5 +13,4 @@ async def main():         # run both together
         auth_user(),
         fetch_profile()
     )
-
 asyncio.run(main())
